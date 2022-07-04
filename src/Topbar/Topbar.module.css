@@ -1,0 +1,41 @@
+.Topbar {
+  width: 100%;
+  background-color: #232f3e;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Topbar > img {
+  width: 120px;
+}
+
+.Topbar > i {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.Topbar > span {
+  position: absolute;
+  top: 70%;
+  right: 148px;
+}
+
+.Topbar > span > button {
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #ff9900;
+  cursor: pointer;
+  border-radius: 50%;
+  color: black;
+}
+
+.Topbar > span > button:hover {
+  background-color: #ff9900;
+  border: 1px solid transparent;
+  color: white;
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 4% 12%;
+  box-sizing: border-box;
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 50%;
+  position: relative;
+}
+
+.details {
+  width: 50%;
+}

@@ -1,0 +1,49 @@
+.product {
+  width: 100%;
+  position: relative;
+}
+
+.product > img {
+  width: 100%;
+}
+
+.time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-52%, -52%);
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.heartBeat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-52%, -52%);
+  color: white;
+  font-size: 35px;
+}
+
+.heartBeat > i {
+  color: red;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.heartBeat > p {
+  margin-top: 15px;
+}
